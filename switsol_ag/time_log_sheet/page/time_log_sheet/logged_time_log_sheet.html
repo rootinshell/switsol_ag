@@ -1,0 +1,45 @@
+<style>
+	.fix {
+		overflow-y: auto;
+		overflow-x: auto;
+		max-height: 150px;
+	}
+</style>
+<div class="table-responsive">
+	<table class="table table-bordered item-table">
+		<tr>
+			<th>Client</th>
+			<th>Project</th>
+			<th>Activity</th>
+			<th>Start Time</th>
+			<th>End Time</th>
+			<th>Hours</th>
+			<th>Status</th>
+		</tr>
+			{% for(var i=0, l=data.length; i < l; i++) { %}
+			<tr>
+				<td>
+					{{ data[i].customer }}
+				</td>
+				<td>
+					{{ data[i].project }}
+				</td>
+				<td>
+					{{ data[i].activity_type }}
+				</td>
+				<td>
+					{{ data[i].from_time }}
+				</td>
+				<td>
+					{{ data[i].to_time }}
+				</td>
+				<td>
+					{{ data[i].hours }}
+				</td>
+				<td>
+					{{ data[i].status }}
+				</td>
+			</tr>
+			{% } %}
+	</table>
+</div>

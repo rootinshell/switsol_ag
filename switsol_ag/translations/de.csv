@@ -1,0 +1,727 @@
+apps/erpnext/erpnext/setup/doctype/naming_series/naming_series.py +155,Series Updated Successfully,Serie erfolgreich aktualisiert
+apps/erpnext/erpnext/setup/doctype/naming_series/naming_series.py +187,Please set Naming Series for {0} via Setup > Settings > Naming Series,Bitte die Serienbezeichnung für {0} über Setup > Einstellungen > Serien benamen eingeben
+apps/erpnext/erpnext/utilities/transaction_base.py +121,Row #{0}: Rate must be same as {1}: {2} ({3} / {4}),Zeile #{0}: Ansatz muss der selber sein wie auf de {1}: {2} ({3} / {4})
+DocType: Naming Series,Series List for this Transaction,Serienliste für diese Transaktion
+DocType: Naming Series,Change the starting / current sequence number of an existing series.,Startnummer/aktuelle laufende Nummer einer bestehenden Serie ändern.
+DocType: Naming Series,Update Series,Serie aktualisieren
+DocType: Naming Series,Update Series Number,Seriennummer aktualisieren
+apps/erpnext/erpnext/hr/doctype/leave_allocation/leave_allocation.py +54,{0} already allocated for Employee {1} for period {2} to {3},{0} bereits an Mitarbeiter {1} zugeteilt für die Periode {2} bis {3}
+apps/erpnext/erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py +146,"Serialized Item {0} cannot be updated using Stock Reconciliation",Serienartikel {0} kann nicht über einen Lagerabgleich aktualisiert werden
+apps/erpnext/erpnext/templates/includes/footer/footer_extension.html +7,Get Updates,Newsletter abonnieren
+apps/erpnext/erpnext/templates/form_grid/stock_entry_grid.html +21,Not in Stock, nicht vorrätig
+DocType: Journal Entry Account,Party,Lieferant
+apps/erpnext/erpnext/stock/doctype/purchase_receipt/purchase_receipt.js +736,Please enter Item Code.,Bitte die Artikelnummer eingeben
+DocType: Account,Company,Firma
+DocType: Account,Accounts Manager,Kontenmanager
+DocType: Account,Account number,Kontonummer
+apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +47,Furniture and Fixture,Möbel und Anbauteile
+apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +44,Computers,Rechner
+apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +53,Plant and Machinery,Anlagen und Maschinen
+apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +117,Print and Stationary,Druck- und Schreibwaren
+apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +159,Current Liabilities,Kurzfristige Verbindlichkeiten
+DocType: Purchase Invoice,Supplier Invoice No,"Referenz- / Rechnungs- / Belegnummer"
+DocType: Purchase Invoice,Additional Discount Percentage,Zusätzlicher Rabatt in Prozent
+DocType: Purchase Invoice,Currency and Price List,Währungs- und Preisliste
+DocType: Purchase Invoice,Mobile No,Mobilfunknummer
+DocType: Purchase Invoice,Title,Titel
+apps/erpnext/erpnext/selling/doctype/quotation/quotation.js +581,Make Sales Order,Auftragsbestätigung erstellen
+apps/erpnext/erpnext/stock/doctype/delivery_note/delivery_note.js +853,Sales Return,Umsatzrendite
+apps/erpnext/erpnext/config/crm.py +12,Database of potential customers.,Datenbank von potentiellen Kunden
+apps/erpnext/erpnext/config/crm.py +17,Potential opportunities for selling.,Mögliche Verkaufschancen für den Vertrieb
+apps/erpnext/erpnext/hr/doctype/upload_attendance/upload_attendance.py +88,Please setup numbering series for Attendance via Setup > Numbering Series,Bitte Seriennummerierung für Anwesenheiten über Setup > Seriennummerierung einstellen
+DocType: Buying Settings,Settings for Buying Module,Einstellungen für Einkaufsmodul
+DocType: Serial No,Warranty Expiry Date,Garantieablaufdatum
+DocType: Serial No,Creation Date,Erstellungsdatum
+DocType: Serial No,Creation Time,Zeitpunkt der Fertigung
+DocType: Opportunity,Opportunity From,Verkaufschance von
+DocType: Opportunity,Opportunity Type,Verkaufschancen-Typ
+DocType: Opportunity,Title,Titel
+DocType: Opportunity,Opportunity Date,Datum der Verkauschance
+DocType: Opportunity,Opportunity,Verkaufschance
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +27,Send Now,Jetzt senden
+DocType: Sales Invoice Item,Stock Details,Lagerinformationen
+DocType: POS Profile,Cash/Bank Account,Kassen-/Bankkonto
+apps/erpnext/erpnext/accounts/doctype/mode_of_payment/mode_of_payment.py +28,Account does not match with Company,Konto passt nicht zu Unternehmen
+DocType: Supplier,Communications,Kommunikationswesen
+DocType: Supplier,Stock Manager,Leitung Lager
+DocType: Global Defaults,Disable Rounded Total,Gerundete Gesamtsumme deaktivieren
+DocType: Lead,Call,Anruf
+DocType: Lead,Opportunity,Verkaufschance
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +544,Accounts table cannot be blank.,Bitte Buchungskonten eingeben.
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +167,Against Journal Entry {0} does not have any unmatched {1} entry,"""Zu Buchungsjournal"" {0} hat nur abgeglichene {1} Buchungen"
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +158,Journal Entry {0} does not have account {1} or already matched against other voucher,Buchungsjournal {0} gehört nicht zu Konto {1} oder ist bereits mit einem anderen Beleg abgeglichen
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +346,Row {0}: Exchange Rate is mandatory,Row {0}: Wechselkurs ist obligatorisch
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +79,Row {0}: Party Type and Party is only applicable against Receivable / Payable account,Zeile {0}: Gruppen-Typ und Gruppe sind nur auf Forderungen-/Verbindlichkeiten-Konto anzuwenden
+apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +48,{0} is required,{0} sind erforderlich
+apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +41,Party Type and Party is required for Receivable / Payable account {0},"""Gruppen-Typ"" und die ""Gruppe"" werden für das Konto ""Forderungen / Verbindlichkeiten"" {0} gebraucht"
+apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +56,Cost Center is required for 'Profit and Loss' account {0},"Kostenstelle wird für ""Gewinn- und Verlust""-Konto {0} benötigt"
+DocType: Maintenance Visit Purpose,Work Done,Zweck / Erledigte Arbeiten
+DocType: Opportunity Item,Opportunity Item,Verkaufschance-Artikel
+apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +586,Delivery Note {0} is not submitted,Lieferschein {0} wurde nicht übertragen
+apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +66,No Remarks,Keine Bemerkungen
+apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +318,Expected Delivery Date is lesser than Planned Start Date.,Voraussichtlicher Liefertermin liegt vor dem geplanten Starttermin.
+DocType: Journal Entry,Journal Entry,Buchungsjournal
+DocType: Journal Entry,Reference Number,"Referenz- / Rechnungs- / Belegnummer"
+DocType: Journal Entry,Reference Date,"Referenz- / Rechnungs- / Belegdatum"
+DocType: Journal Entry,User Remark,Bemerkung
+DocType: Journal Entry,Title,Titel
+apps/erpnext/erpnext/manufacturing/doctype/bom/bom.py +508,Operations cannot be left blank.,"""Arbeitsvorbereitung"" kann nicht leer sein."
+apps/erpnext/erpnext/accounts/doctype/pricing_rule/pricing_rule.js +51,Customer > Customer Group > Territory,Kunde > Kundengruppe > Region
+apps/erpnext/erpnext/accounts/doctype/pricing_rule/pricing_rule.js +48,Item Code > Item Group > Brand,Artikelnummer > Artikelgruppe > Marke
+apps/erpnext/erpnext/accounts/doctype/pricing_rule/pricing_rule.js +54,Supplier > Supplier Type,Lieferant > Lieferantentyp
+apps/erpnext/erpnext/public/js/setup_wizard.js +321,Your Customers,Ihre Kunden
+apps/erpnext/erpnext/public/js/setup_wizard.js +108,You will use it to Login,"Sie brauchen das, um sich anzumelden."
+apps/erpnext/erpnext/public/js/setup_wizard.js +155,Financial Year End Date,Enddatum des Geschäftsjahres
+apps/erpnext/erpnext/public/js/setup_wizard.js +143,"e.g. ""MC""","z. B. ""MC"""
+apps/erpnext/erpnext/public/js/setup_wizard.js +154,Your financial year begins on,Ihr Geschäftsjahr beginnt am
+apps/erpnext/erpnext/public/js/setup_wizard.js +257,Keep it web friendly 900px (w) by 100px (h),Webfreundlich halten: 900px (breit) zu 100px (hoch)
+apps/erpnext/erpnext/public/js/setup_wizard.js +101,The First User: You,Der erste Benutzer: Sie selbst!
+apps/erpnext/erpnext/public/js/setup_wizard.js +141,"e.g. ""My Company LLC""","z. B. ""Meine Firma GmbH"""
+apps/erpnext/erpnext/public/js/setup_wizard.js +290,Purchaser,Käufer
+apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js +589,Mark as Delivered,Als geliefert kennzeichnen
+DocType: Dependent Task,Dependent Task,Abhängige Aufgabe
+apps/erpnext/erpnext/public/js/pos/pos.js +497,{0} View,{0} anzeigen
+DocType: Sales Order Item,Sales Order Date,Datum
+DocType: Sales Order Item,Hide Original Price,Originalpreis verbergen
+DocType: Sales Invoice Item,Hide Original Price,Originalpreis verbergen
+DocType: Delivery Note Item,Hide Original Price,Originalpreis verbergen
+apps/erpnext/erpnext/controllers/stock_controller.py +209,{0} {1} is cancelled or stopped,{0} {1} wird abgebrochen oder  gestoppt
+apps/erpnext/erpnext/config/website.py +17,"Settings for online shopping cart such as shipping rules, price list etc.","Einstellungen für Online-Warenkorb, wie Versandregeln, Preisliste usw."
+DocType: Warranty Claim,Warranty Claim,Garantieantrag
+apps/erpnext/erpnext/public/js/pos/pos.js +152,Please select {0} first.,Bitte zuerst {0} auswählen.
+apps/erpnext/erpnext/crm/doctype/opportunity/opportunity.py +32,Opportunity From field is mandatory,"Feld ""Verkaufschance von"" ist zwingend erforderlich"
+apps/erpnext/erpnext/controllers/item_variant.py +99,Value {0} for Attribute {1} does not exist in the list of valid Item Attribute Values,Wert {0} für Attribut {1} gibt es nicht in der Liste der gültigen Artikel-Attributwerte
+apps/erpnext/erpnext/setup/setup_wizard/install_fixtures.py +129,Associate,Mitarbeiterin
+apps/erpnext/erpnext/setup/setup_wizard/install_fixtures.py +86,Casual Leave,Urholungsurlaub
+DocType: Stock Settings,Allowance Percent,Zugelassener Prozentsatz
+DocType: C-Form Invoice Detail,Invoice No,Rechnungs-Nr.
+apps/erpnext/erpnext/projects/doctype/time_log/time_log_list.js +25,Time Log Status must be Submitted.,"Status des Zeitprotokolls muss ""übertragen"" sein"
+apps/erpnext/erpnext/projects/doctype/time_log/time_log_list.js +21,Time Log is not billable,Zeitprotokoll ist nicht abrechenbar
+apps/erpnext/erpnext/controllers/accounts_controller.py +372,"Cannot overbill for Item {0} in row {1} more than {2}. To allow overbilling, please set in Stock Settings","Artikel {0} in Zeile {1} kann nicht mehr überberechnet werden als {2}. Um Überberechnung zu erlauben, bitte entsprechend in den Lagereinstellungen einstellen"
+apps/erpnext/erpnext/controllers/accounts_controller.py +520,"Total advance ({0}) against Order {1} cannot be greater than the Grand Total ({2})",Summe der Anzahlungen ({0}) zu Bestellung {1} kann nicht größer sein  als die Gesamtsumme ({2})
+DocType: Purchase Order Item,Supplier Part Number,Artikelnummer Lieferant
+DocType: Fiscal Year,Companies,Unternehmen
+apps/erpnext/erpnext/crm/doctype/lead/lead.js +30,Create Customer,Neuen Kunden erstellen
+apps/erpnext/erpnext/config/selling.py +158,Setup incoming server for sales email id. (e.g. sales@example.com),E-Mail-Adresse für den Vertrieb einrichten. (z. B. sales@example.com)
+DocType: Task Depends On,Task Depends On,Aufgabe hängt davon ab
+DocType: Bank Reconciliation,To Date,Bis-Datum
+DocType: Appraisal Goal,Key Responsibility Area,Wichtigster Verantwortungsbereich
+,Profit and Loss Statement,Erfolgsrechnung
+apps/erpnext/erpnext/config/accounts.py +63,Close Balance Sheet and book Profit or Loss.,Bilanz schliessen und in die Erfolgsrechnung übernehmen
+apps/erpnext/erpnext/hr/doctype/attendance/attendance.py +29,Employee {0} was on leave on {1}. Cannot mark attendance.,"Mitarbeiter {0} war am {1} im Urlaub. Er kann nicht auf ""anwesend"" gesetzt werden."
+DocType: Production Order Operation,Make Time Log,Zeitprotokoll erstellen
+apps/erpnext/erpnext/accounts/report/financial_statements.py +16,Fiscal Year {0} not found.,Geschäftsjahr {0} nicht gefunden.
+apps/erpnext/erpnext/hr/doctype/employee/employee.py +214,Birthday Reminder for {0},{0} hat heute Geburtstag
+apps/erpnext/erpnext/hr/doctype/employee/employee.py +215,"Today is {0}'s birthday! (S)He's now {1} years old.<br><p>Regards,</p><p>Your Switsol-Team</p>","Heute ist der Geburtstag von {0}. Er/Sie ist jetzt {1} jährig.<br><p>Freundliche Grüsse</p><p>Ihr Team von Switsol</p>"
+apps/erpnext/erpnext/setup/utils.py +109,Unable to find exchange rate for {0} to {1},Wechselkurs für {0} zu {1} kann nicht gefunden werden
+DocType: Leave Control Panel,Employee Type,Mitarbeitertyp
+DocType: Pricing Rule,Purchase Manager,Einkaufsleiter
+DocType: Sales Order,% of materials billed against this Sales Order,% der für diesen Kundenauftrag in Rechnung gestellten Materialien
+,Is Primary Address,Ist Hauptadresse
+DocType: Pricing Rule,Item Code,Artikelnummer
+DocType: Sales Order,Data Import Manager,Daten Import Manager
+apps/erpnext/erpnext/projects/doctype/time_log_batch/time_log_batch.py +39,Time Log {0} must be 'Submitted',"Zeitprotokoll {0} muss ""übertragen"" sein"
+DocType: Period Closing Voucher,"The account head under Liability, in which Profit/Loss will be booked","Bezeichnung des Kontos unter Verbindlichkeiten, in das Gewinn/Verlust verbucht werden"
+apps/erpnext/erpnext/accounts/utils.py +346,{0} budget for Account {1} against Cost Center {2} will exceed by {3},{0} Budget für Konto {1} zu Kostenstelle {2} wird um {3} überschritten
+apps/erpnext/erpnext/setup/setup_wizard/data/sample_home_page.html +3,Awesome Products,Beeindruckende Produkte
+DocType: Packing Slip,The gross weight of the package. Usually net weight + packaging material weight. (for print),Das Bruttogewicht des Pakets. Normalerweise Nettogewicht + Gewicht des Verpackungsmaterials (Für den Ausdruck)
+DocType: Payment Reconciliation Payment,Voucher Detail Number,Belegdetail-Nummer
+apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.js +667,From Sales Order,Aus Kundenauftrag
+apps/erpnext/erpnext/stock/doctype/warehouse/warehouse.py +63,Warehouse {0}: Company is mandatory,Lager {0}: Firma ist zwingend erforderlich
+DocType: Process Payroll,Check if you want to send salary slip in mail to each employee while submitting salary slip,"Aktivieren, wenn Sie die Gehaltsabrechnung per E-Mail an jeden Mitarbeiter senden möchten während Sie sie übertragen."
+DocType: Salary Slip Deduction,Salary Slip Deduction,Abzug auf der Gehaltsabrechnung
+DocType: SMS Center,Send SMS,SMS senden
+DocType: Company,Default Cash Account,Standardkassenkonto
+apps/erpnext/erpnext/accounts/doctype/pricing_rule/pricing_rule.py +246,"Multiple Price Rule exists with same criteria, please resolve \
+			conflict by assigning priority. Price Rules: {0}",Es existieren mehrere Preisregeln mit denselben Kriterien. Bitte diesen Konflikt durch Vergabe von Vorrangregelungen lösen. Preisregeln: {0}
+apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js +272,Cannot deduct when category is for 'Valuation' or 'Valuation and Total',"Abzug nicht möglich, wenn Kategorie ""Bewertung"" oder ""Bewertung und Summe"" ist"
+apps/erpnext/erpnext/crm/doctype/opportunity/opportunity.js +82,Create Quotation,Angebot erstellen
+apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js +439,From Product Bundle,Aus Produkt-Bundle
+apps/erpnext/erpnext/accounts/page/pos/pos.js +4,Start Point-of-Sale (POS),Point-of-Sale (POS) starten
+DocType: Quotation,Quotation Lost Reason,Grund des verlorenen Angebotes
+apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js +486,Get Items,Artikel aufrufen
+apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.js +179,Make Excise Invoice,Verbrauchssteuerrechnung erstellen
+DocType: Cost Center,Distribution Id,Verteilungs-ID
+DocType: Customer,Default Receivable Accounts,Standard-Forderungskonten
+DocType: Payment Reconciliation,Maximum Amount,Höchstbetrag
+apps/erpnext/erpnext/public/js/queries.js +39,Please specify a,Bitte angeben
+DocType: Newsletter,Email Id,E-Mail-ID testen
+DocType: Salary Slip Earning,Salary Slip Earning,Verdienst laut Gehaltsabrechnung
+apps/erpnext/erpnext/setup/doctype/email_digest/templates/default.html +40,Upcoming Events,Kommende Veranstaltungen
+apps/erpnext/erpnext/stock/doctype/item/item.py +49,Please enter default Unit of Measure,Bitte die Standardmaßeinheit eingeben
+apps/erpnext/erpnext/stock/doctype/item/item.py +409,"To set reorder level, item must be a Purchase Item or Manufacturing Item","Um den Meldebestand festzulegen, muss der Artikel ein Einkaufsartikel oder ein Fertigungsartiel sein"
+apps/erpnext/erpnext/stock/doctype/item/item.py +412,Please set reorder quantity,Bitte Nachbestellmenge einstellen
+apps/erpnext/erpnext/stock/doctype/item/item.py +424,Row {0}: An Reorder entry already exists for this warehouse {1},Zeile {0}: Es gibt bereits eine Nachbestellungsbuchung für dieses Lager {1}
+DocType: Warranty Claim,"To assign this issue, use the ""Assign"" button in the sidebar.","Um diesen Fall zuzuweisen, bitte die Schaltfläche ""Zuweisen"" auf der Seitenleiste verwenden."
+apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.js +29,Submit this Production Order for further processing.,Diesen Fertigungsauftrag für die weitere Verarbeitung übertragen.
+apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.js +71,Update Finished Goods,Fertigwaren aktualisieren
+DocType: Salary Structure Earning,Reduce Earning for Leave Without Pay (LWP),Verdienst für unbezahlten Urlaub (LWP) vermindern
+DocType: Salary Structure Earning,Salary Structure Earning,Gehaltsstruktur-Verdienst
+DocType: GL Entry,Party,Lieferant
+apps/erpnext/erpnext/stock/doctype/material_request/material_request.py +128,The total Issue / Transfer quantity {0} in Material Request {1} cannot be greater than requested quantity {2} for Item {3},Die Gesamtmenge {0} des auszugebenden/zu übertragenden Materials in der Materialanfrage {1} kann nicht größer sein als die angefragte Menge {2} für den Artikel {3}
+DocType: Sales Partner,Partner's Website,Webseite des Partners
+apps/erpnext/erpnext/hr/doctype/job_applicant/job_applicant.js +17,Make Offer Letter,Angebotsschreiben erstellen
+apps/erpnext/erpnext/accounts/report/sales_register/sales_register.py +66,Customer Id,Kunden-ID
+apps/erpnext/erpnext/projects/doctype/time_log/time_log.py +110,To Time must be greater than From Time,Bis-Zeit muss nach Von-Zeit liegen
+apps/erpnext/erpnext/stock/doctype/warehouse/warehouse.py +74,Warehouse {0}: Parent account {1} does not bolong to the company {2},Lager {0}: Übergeordnetes Konto {1} gehört nicht zu Firma {2}
+DocType: Delivery Note,% of materials delivered against this Delivery Note,% der mit diesem Lieferschein gelieferten Materialien
+apps/erpnext/erpnext/config/stock.py +110,Warehouses.,Lager
+apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +179,"Against Voucher Type must be one of Purchase Order, Purchase Invoice or Journal Entry","""Gegenbeleg"" muss entweder ein Lieferantenauftrag, eine Eingangsrechnung oder eine Journalbuchung sein"
+apps/erpnext/erpnext/controllers/recurring_document.py +133,"Dear Sir, Dear Madame<p>Enclosed you will find your latest invoice, according to our contract.</p><p>Please do not hesitate to contact us for further information.</p><p>Kind Regards,</p><p>{0}</p><p>{1}</p><p>{2}</p>","Sehr geehrte Damen und Herren<p>Im Anhang senden wir Ihnen wie abgemacht die wiederkehrende Rechnung für unsere Arbeiten.</p><p>Wir danken Ihnen für Ihre Kundentreue und stehen für Fragen gern zur Verfügung.</p><p>Freundliche Grüsse</p><p>{0}</p><p>{1}</p><p>{2}</p>"
+DocType: Payment Reconciliation,Minimum Amount,Mindestbetrag
+DocType: Warehouse,Account for the warehouse (Perpetual Inventory) will be created under this Account.,Konto für das Lager (Permanente Inventur) wird unter diesem Konto erstellt.
+apps/erpnext/erpnext/accounts/doctype/accounts_settings/accounts_settings.py +27,Company is missing in warehouses {0},Firma fehlt in Lägern {0}
+apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +103,Please enter sales order in the above table,Bitte den Kundenauftrag in die obige Tabelle eingeben
+apps/erpnext/erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py +46,Please enter Purchase Receipts,Bitte Kaufbelege eingeben
+apps/erpnext/erpnext/config/support.py +54,Setup incoming server for support email id. (e.g. support@example.com),E-Mail-Adresse für den Support einrichten. (z. B. support@example.com)
+DocType: Notification Control,"When any of the checked transactions are ""Submitted"", an email pop-up automatically opened to send an email to the associated ""Contact"" in that transaction, with the transaction as an attachment. The user may or may not send the email.","Wenn eine der ausgewählten Transaktionen den Status ""übertragen"" erreicht hat, geht automatisch ein E-Mail-Fenster auf, so dass eine E-Mail an die mit dieser Transaktion verknüpften Kontaktdaten gesendet wird, mit der Transaktion als Anhang.  Der Benutzer kann auswählen, ob er diese E-Mail absenden will."
+apps/erpnext/erpnext/stock/doctype/serial_no/serial_no.py +213,Serial No {0} has already been received,Seriennummer {0} bereits erhalten
+apps/erpnext/erpnext/support/doctype/maintenance_schedule/maintenance_schedule.py +166,Maintenance Schedule {0} exists against {0},Wartungsplan {0} gegen {0} zu
+apps/erpnext/erpnext/config/accounts.py +58,Match non-linked Invoices and Payments.,Nicht verknüpfte Rechnungen und Zahlungen verknüpfen
+apps/erpnext/erpnext/templates/pages/cart.html +13,Place Order,Bestellung aufgeben
+apps/erpnext/erpnext/crm/doctype/newsletter/newsletter.py +137,Please verify your email id,Bitte E-Mail-ID überprüfen
+apps/erpnext/erpnext/crm/doctype/newsletter/newsletter.py +139,Click here to verify,Hier klicken um die Richtigkeit zu bestätigen
+apps/erpnext/erpnext/crm/doctype/newsletter/newsletter.py +166,{0} has been successfully added to our Newsletter list.,{0} wurde erfolgreich zu unserer Newsletter-Liste hinzugefügt.
+apps/erpnext/erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js +41,Remove item if charges is not applicable to that item,"Artikel entfernen, wenn keine Gebühren angerechtet werden können"
+DocType: Purchase Taxes and Charges Template,Purchase Master Manager,Einkaufsstammdaten-Manager
+apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +230,"Row {0}: Qty not avalable for {4} in warehouse {1} at posting time of the entry ({2} {3})","Zeile {0}: Menge nicht für {4} im Lager {1} zum Zeitpunkt des Eintrags Entsendung ({2} {3})"
+apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +253,Insufficient Stock,Nicht genügend Artikel an Lager
+apps/erpnext/erpnext/support/doctype/maintenance_schedule/maintenance_schedule.py +150,Please select Start Date and End Date for Item {0},Bitte Start -und Enddatum für den Artikel {0} auswählen
+apps/erpnext/erpnext/config/stock.py +136,Main Reports,Hauptberichte
+DocType: Purchase Receipt Item,Prevdoc DocType,Prevdoc DocType
+apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +53,Chart of Cost Centers,Kostenstellenplan
+apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +174,Totals,Summen
+apps/erpnext/erpnext/config/hr.py +105,Organization unit (department) master.,Stammdaten der Organisationseinheit (Abteilung)
+DocType: Budget Detail,Budget Detail,Budget-Detail
+apps/erpnext/erpnext/config/accounts.py +127,Point-of-Sale Profile,Verkaufsstellen-Profil
+apps/erpnext/erpnext/setup/doctype/sms_settings/sms_settings.py +68,Please Update SMS Settings,Bitte SMS-Einstellungen aktualisieren
+apps/erpnext/erpnext/projects/doctype/time_log_batch/time_log_batch.py +37,Time Log {0} already billed,Zeitprotokoll {0} bereits abgerechnet
+apps/erpnext/erpnext/hr/doctype/salary_structure/salary_structure.py +86,Employee can not be changed,Mitarbeiter kann nicht verändert werden
+apps/erpnext/erpnext/controllers/status_updater.py +141,Allowance for over-{0} crossed for Item {1},Zustimmung für Artikel {1} bei Überschreitung von {0}
+apps/erpnext/erpnext/hr/doctype/salary_structure/salary_structure.py +65,Another Salary Structure {0} is active for employee {1}. Please make its status 'Inactive' to proceed.,"Eine andere Gehaltsstruktur {0} ist für diesen Mitarbeiter {1} aktiv. Bitte setzen Sie dessen Status auf ""inaktiv"" um fortzufahren."
+apps/erpnext/erpnext/support/doctype/maintenance_visit/maintenance_visit.js +30,From Warranty Claim,Von Garantieantrag
+apps/erpnext/erpnext/hr/doctype/process_payroll/process_payroll.js +29,Do you really want to Submit all Salary Slip for month {0} and year {1},Wollen Sie wirklich alle Gehaltsabrechnungen für den Monat {0} und das Jahr {1} übertragen
+apps/erpnext/erpnext/crm/doctype/newsletter_list/newsletter_list.js +8,Import Subscribers,Import-Abonnenten
+apps/erpnext/erpnext/stock/doctype/packing_slip/packing_slip.py +35,Delivery Note {0} must not be submitted,Lieferschein {0} darf nicht übertragen werden
+DocType: Authorization Rule,Based On,Basiert auf
+apps/erpnext/erpnext/config/projects.py +13,Project activity / task.,Projektaktivität/Aufgabe
+DocType: Purchase Invoice Advance,Journal Entry Detail No,Buchungsjournal-Detail-Nr.
+apps/erpnext/erpnext/crm/doctype/lead/lead.py +37,Campaign Name is required,Kampagnenname ist erforderlich
+apps/erpnext/erpnext/crm/doctype/newsletter_list/newsletter_list.js +40,New Newsletter,Neuer Newsletter
+DocType: Selling Settings,Settings for Selling Module,Einstellungen für das Vertriebsmodul
+DocType: Selling Settings,Allow multiple Sales Orders against a Customer's Purchase Order,Mehrere verschiedene Kundenaufträge zu einer Kundenbestellung zulassen
+apps/erpnext/erpnext/config/hr.py +53,Offer candidate a Job.,Einem Bewerber einen Arbeitsplatz anbieten
+apps/erpnext/erpnext/stock/get_item_details.py +125,Item {0} must be a Sales Item,Artikel {0} muss ein Verkaufsartikel sein
+apps/erpnext/erpnext/stock/get_item_details.py +249,Item Price added for {0} in Price List {1},Der Preis fur Artikel {0} wurde in die Preisliste {1} hinzugefügt.
+apps/erpnext/erpnext/stock/doctype/delivery_note/delivery_note.py +263,Installation Note {0} has already been submitted,Installationshinweis {0} wurde bereits übertragen
+apps/erpnext/erpnext/config/stock.py +43,Where items are stored.,Ort an dem Artikel gelagert werden
+DocType: Tax Rule,Validity,Gültigkeit
+apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.py +97,No permission to use Payment Tool,"Keine Berechtigung, das Zahlungswerkzeug zu benutzen"
+apps/erpnext/erpnext/public/js/pos/pos.js +435,Change,Ändern
+DocType: Task,Actual End Date (via Time Sheet),Tatsächliches Enddatum (über Zeitprotokoll)
+apps/erpnext/erpnext/hr/doctype/salary_slip/salary_slip.py +218,"Company Email ID not found, hence mail not sent","ID der Firmen-E-Mail-Adresse wurde nicht gefunden, deshalb wird die E-Mail nicht gesendet"
+DocType: Purchase Common,Purchase Common,Einkauf Allgemein
+DocType: Production Order,Manufactured Qty,Hergestellte Menge
+apps/erpnext/erpnext/crm/doctype/newsletter_list/newsletter_list.py +40,{0} subscribers added,{0} Empfänger hinzugefügt
+DocType: Cost Center,"Define Budget for this Cost Center. To set budget action, see ""Company List""","Budget für diese Kostenstelle definieren. Um das Budget wirksam werden zu lassen, bitte Unternehmensliste anschauen"
+apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js +677,From Supplier Quotation,Von Lieferantenangebot
+DocType: Deduction Type,Deduction Type,Abzugsart
+DocType: Attendance,Half Day,Halbtags
+apps/erpnext/erpnext/accounts/report/purchase_register/purchase_register.py +93,Total Tax,Summe Steuern
+apps/erpnext/erpnext/config/stock.py +23,Record item movement.,Lagerbewegung aufzeichnen
+DocType: Newsletter List Subscriber,Newsletter List Subscriber,Newsletter-Abonnentenliste
+apps/erpnext/erpnext/accounts/party.py +232,Accounting entries have already been made in currency {0} for company {1}. Please select a receivable or payable account with currency {0}.,Es wurden bereits Buchungen in der Währung {0} für Firma {1} vorgenommen. Bitte ein Forderungs- oder Verbindlichkeiten-Konto mit Währung {0} wählen.
+,Monthly Salary Register,Übersicht monatliche Gehälter
+apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.py +33,Please enter Payment Amount in atleast one row,Bitte in mindestens eine Zeile einen Zahlungsbetrag eingeben
+apps/erpnext/erpnext/config/accounts.py +153,"Seasonality for setting budgets, targets etc.","Saisonbedingte Besonderheiten zu Budgets, Zielen usw."
+apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +238,Row {0}: Payment Amount cannot be greater than Outstanding Amount,Zeile {0}: Zahlungsbetrag kann nicht größer als Ausstehender Betrag sein
+apps/erpnext/erpnext/buying/doctype/supplier/supplier.js +46,Total Unpaid,Summe Offene Beträge
+apps/erpnext/erpnext/stock/get_item_details.py +128,"Item {0} is a template, please select one of its variants","Artikel {0} ist eine Vorlage, bitte eine seiner Varianten wählen"
+apps/erpnext/erpnext/hr/doctype/salary_structure/salary_structure.py +81,Net pay cannot be negative,Nettolohn kann nicht negativ sein
+apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.py +107,Please enter the Against Vouchers manually,Bitte die Gegenbelege manuell eingeben
+apps/erpnext/erpnext/config/stock.py +90,Default settings for stock transactions.,Standardeinstellungen für Lagertransaktionen
+apps/erpnext/erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py +49,Please enter Taxes and Charges,Bitte Steuern und Gebühren eingeben
+apps/erpnext/erpnext/accounts/utils.py +197,Allocated amount can not greater than unadusted amount,Zugewiesene Menge kann nicht größer sein als unbereinigte Menge
+DocType: Batch,Expiry Date,Verfalldatum
+,Supplier Addresses and Contacts,Lieferanten-Adressen und Kontaktdaten
+DocType: Quotation,Payment,Zahlungseingang verarbeiten
+DocType: Quotation,Clerk,Sachbearbeiter
+DocType: Quotation,Customer,Kunden-Nr.
+DocType: Quotation,Order Type,Antebotstyp
+DocType: Quotation,Client Contact Person,Ihre Kontaktperson Endkunde
+DocType: Quotation,Client Contract Number,Ihre Bestell-Nr.
+DocType: Quotation,Client Control Person,Ihre Kontrollperson
+DocType: Quotation,Client Dossier Number,Ihre Dossier-Nr.
+DocType: Quotation,Client End Customer,Ihr Endkunde
+DocType: Quotation,Client Order Number,Ihre Auftrags-Nr.
+DocType: Quotation,Client Project Number,Ihre Projekt-Nr.
+DocType: Quotation,Client Reference,Ihre Referenz
+DocType: Quotation,Sending Date,Versanddatum des Briefes
+DocType: Quotation,Contract Start Date,Vertragsbeginn
+DocType: Quotation,Contract Details,Vertragsdetails
+DocType: Quotation,Contract End Date,Vertragsende
+DocType: Quotation,Quotation Subtitle,Untertitel
+DocType: Quotation,Responsible Person,Auftraggeber (Firma)
+DocType: Quotation,Subtitle,Untertitel
+DocType: Quotation,Client Side Data,Interne Angaben des Kunde
+DocType: Quotation,Equipment,Anlage
+DocType: Quotation,Object Details,Objektdetails
+DocType: Quotation,Object Title,Objekt Titel
+DocType: Quotation,Dossier Number,Dossier-Nr.
+DocType: Quotation,Responsible For Object,Objektverantwortlicher
+DocType: Quotation,Maintenance Contract Number,Wartungsvertrags-Nr.
+DocType: Quotation,Maintenance Number,Wartungs-Nr.
+DocType: Quotation,Description Text,Einleitungstext
+DocType: Quotation,State,Zustand
+DocType: Quotation,Is State,IST-Zustand
+DocType: Quotation,Must State,SOLL-Zustand
+DocType: Quotation,Action,Massnahmen
+DocType: Quotation,Payment Details,Details zur Zahlung
+DocType: Quotation,Banking Details,Bankdetails
+DocType: Quotation,Description,Texte
+DocType: Quotation,Description For Details,Beschreibung Details
+DocType: Quotation,General Information, Allgemeine Informationen
+DocType: Quotation,Target Details, Objektangaben
+DocType: Quotation,Items Details, Artikeldetails
+DocType: Quotation,Signatures, Unterschriften
+DocType: Quotation,Chief Signature, Unterschrift links
+DocType: Quotation,Employee Signature, Unterschrift rechts
+DocType: Quotation,Specification,Spezifikation
+DocType: Quotation,Contract Type,Vertragstyp
+DocType: Quotation,Offer Content,Angebotstitel
+DocType: Quotation,Delivery Period,Lieferfrist
+DocType: Quotation,Payment Period,Zahlungsfrist
+DocType: Quotation,in weeks,Wochen
+DocType: Quotation,in days,Tage
+DocType: Quotation,Total,Total
+DocType: Quotation,Amount in,Betrag in
+DocType: Quotation,Photo,Foto
+DocType: Quotation,Rate,Ansatz
+DocType: Quotation,Greeting Text,Text unterhalb Preistabelle
+DocType: Quotation,Quotation Date,Angebotsdatum
+DocType: Quotation,Quotation Number,Angebots-Nr.
+DocType: Quotation,Customer Number,Kunden-Nr.
+DocType: Quotation,Quotes to Customers.,Angebote für Kunden
+DocType: Quotation,Items Description 1,Schlussklausel
+DocType: Quotation,Items Description 2,Schlusstext-AGB
+DocType: Quotation,Items Details Description,Text auf dem Detailangebot (nach den Bildern)
+DocType: Quotation Item,Show in details table,In den Angebotsdetails anzeigen
+DocType: Quotation Item,Apply 2% Discount,Bewerben 2% Skonto
+DocType: Quotation Item,Hide Original Price,Originalpreis verbergen
+DocType: Quotation,Partial Payment 1 Name,1. Teilzahlung
+DocType: Quotation,Partial Payment 2 Name,2. Teilzahlung
+DocType: Quotation,Partial Payment 3 Name,3. Teilzahlung
+DocType: Quotation,Partial Payment 4 Name,4. Teilzahlung
+DocType: Quotation,Partial Payment 1 Value,Teilzahlung in %
+DocType: Quotation,Partial Payment 2 Value,Teilzahlung in %
+DocType: Quotation,Partial Payment 3 Value,Teilzahlung in %
+DocType: Quotation,Partial Payment 4 Value,Teilzahlung in %
+DocType: Quotation,Payment Terms,Zahlungskonditionen
+DocType: Quotation,Discount 1,Bezeichnung Rabatt 1
+DocType: Quotation,Discount 2,Bezeichnung Rabatt 2
+DocType: Quotation,Discount 3,Bezeichnung Rabatt 3
+DocType: Quotation,Discount 1 Value,Rabatt in %
+DocType: Quotation,Discount 2 Value,Rabatt in %
+DocType: Quotation,Discount 3 Value,Rabatt in Währung
+DocType: Quotation,Amount in,Betrag in
+DocType: Quotation,Title,Titel
+DocType: Quotation,Final Texts,Abschlusstext
+DocType: Quotation,Not Included Services,In unserer Lieferung und Dienstleistung nicht inbegriffen
+DocType: Quotation,Included Services,Unsere Lieferung und Dienstleistung umfasst
+DocType: Purchase Receipt,Title,Titel
+DocType: Pricing Rule,Title,Titel
+DocType: Supplier Quotation,Title,Titel
+DocType: Newsletter List,Title,Titel
+DocType: Activity Cost,Title,Titel
+DocType: Project Task,Title,Titel
+DocType: Terms and Conditions,Title,Titel
+DocType: Material Request,Title,Titel
+DocType: Stock Entry,Title,Titel
+apps/erpnext/erpnext/selling/sales_common.js +354,Dear Sir or Madam,Sehr geehrte Damen und Herren
+DocType: Employee,Signature,Unterschrift
+DocType: Employee,Pensum,Pensum
+DocType: Employee,Function,Funktion
+DocType: Employee,Phone Office Direct,Telefon Büro Direkt
+DocType: Employee,Natel Work,Mobile Geschäft
+DocType: Employee,Natel Privat,Mobile privat
+DocType: Employee,Permanent Address,Private Wohnadresse
+DocType: Employee,Current Address,Wohnadresse Notfallkontakt
+DocType: Employee,Relation,Beziehung zu Notfallkontakt
+DocType: Employee,Emergency Phone,Telefonnummer Notfallkontakt
+DocType: Employee,Salary Mode,Bezahlung des Lohns
+DocType: Employee,Social Security Number,Sozialversicherungsnummer
+DocType: Employee,Active,Aktiv
+DocType: Employee,Inactive,Ausgetreten
+DocType: Employee,Ms,Frau
+DocType: Employee,Bank Name,Name der Bank
+DocType: Employee,Exit,Austritt/Beenden
+DocType: Employee,Emergency Contact Details,Notfallkontaktdaten
+DocType: Employee,Cell Number,Festnetznummer privat
+DocType: Employee,Salutation,Anrede
+DocType: Employee,Feedback,Rückmeldung
+DocType: Contact,Greeting,Anrede
+DocType: Contact,Birthday,Geburtsdatum
+DocType: Contact,Male,Männlich
+DocType: Contact,Female,Weiblich
+DocType: Contact,Greeting,Anrede
+DocType: Contact,Mobile No,Mobilfunknummer Geschäft
+DocType: Contact,Mobile No Privat,Mobilfunknummer Privat
+DocType: Contact,Resigned,Ausgetreten
+DocType: Contact,Reference,Referenz / Verknüpft mit
+DocType: Contact,Dear Sir or Madam,Sehr geehrte Damen und Herren
+DocType: Contact,Last Name,Name
+DocType: Contact,Active,Aktiv
+DocType: Contact,Inactive,Ausgetreten
+DocType: Quotation Specification,Title,Titel
+DocType: Quotation Specification,Quotation Specification,Angebot Spezifikation
+DocType: Quotation Contract Type,Quotation Contract Type,Angebot Vertragstyp
+DocType: Quotation Contract Type,Introduction,Einleitungstext
+DocType: Quotation Contract Type,Title,Titel
+apps/erpnext/erpnext/selling/doctype/utilities/contact.js +32,Dear Sir or Madam,Sehr geehrte Damen und Herren
+apps/erpnext/erpnext/selling/doctype/utilities/contact.js +34,Dear Sir,Sehr geehrter Herr
+apps/erpnext/erpnext/selling/doctype/utilities/contact.js +36,Dear Madam,Sehr geehrte Frau
+DocType: Address,Customers,Kunden
+DocType: Address,City/Town,Stadt/Ort
+DocType: Address,Object,Objekt
+DocType: Address,Email Id,Email
+DocType: Address,Switzerland,Schweiz
+DocType: Address,Belgium,Belgium
+DocType: Address,Italy,Italien
+DocType: Address,Germany,Deutschland
+DocType: Sales Order,Title,Titel
+DocType: Sales Order,Sales Order,Auftragsbestätigung
+DocType: Sales Order,Saler Order Date,Auftragsdatum
+DocType: Sales Order,Sales Order Number,Nummer
+DocType: Sales Order,Quotation Number,Angebots-Nr.
+DocType: Sales Order,Your Order,Ihre Bestellung
+DocType: Sales Order,Final Texts,Abschlusstext
+DocType: Sales Order,Cancelled,Inaktiv
+DocType: Sales Order,Submitted,Aktiv
+DocType: Sales Invoice,Sales Invoice,Rechnung
+DocType: Sales Invoice,Sales Invoice Date,Rechnungsdatum
+DocType: Sales Invoice,Sales Invoice Number,Rechnungs-Nr.
+DocType: Sales Invoice,Your Order,Ihre Bestellung
+DocType: Sales Invoice,Title,Titel
+DocType: Sales Invoice,Final Texts,Abschlusstext
+DocType: Sales Invoice,Time Report From,Arbeitszeitrapport von
+DocType: Sales Invoice,Worktime,Arbeitszeit
+DocType: Sales Invoice,Amount per Hours,Betrag pro Stunde
+DocType: Sales Invoice,Time Sheet List,Arbeitszeit abrechnen
+DocType: Sales Invoice,Notify by email,Per Email benachrichtigen
+DocType: Sales Invoice,Payment Due Date,Fälligkeitsdatum
+DocType: Sales Invoice,Shipping Address Name,Lieferadresse
+DocType: Sales Invoice,Shipping Address,Versandadresse
+DocType: Sales Invoice,Total Billing Amount,Gesamtrechnungsbetrag Arbeitsrapporte
+DocType: Sales Invoice,Recurring,Wiederkehrende Rechnung (Abo / Servicevertrag)
+DocType: Sales Invoice,Write Off Outstanding Amount,Offenen Betrag ausbuchen
+DocType: Sales Invoice,Exhibition,Messe
+DocType: Sales Invoice,Supplier Reference,Referenznummer des Lieferanten
+DocType: Sales Invoice,Existing Customer,Bestehender Kunde
+DocType: Sales Invoice,Is POS,Ist POS (Point of Sale)
+DocType: Customer,Extended Name,Adresszusatz
+apps/erpnext/erpnext/selling/doctype/customer/customer.js +69,Total Billing This Year:,Gesamtbetrag der Rechnungen des aktuellen Jahres:
+apps/erpnext/erpnext/enip/contract.py +12,Contract End Date must be greater than Contract Start Date,Vertragsende muss größer sein als Vertragsbeginn
+apps/erpnext/erpnext/config/desktop.py +73,After Sales,After-Sales
+apps/erpnext/erpnext/config/desktop.py +81,Learn,Erkunden
+apps/erpnext/erpnext/enip/sales_docs_autoname.py +18,Customer is mandatory.,Bitte den Kunden auswählen.
+DocType: Maintenance Schedule,Contract Number,Wartungsvertragsnummer
+DocType: Maintenance Schedule,Get From Sales Order,Wartungsplan aus einer Auftragsbestätigung generieren
+DocType: Maintenance Schedule,Get From,Wartungsplan aus einer
+DocType: Salary Slip,"<label>Deductions</label>","<label>Abzüge</label>"
+DocType: Salary Slip,"<label>Earnings</label>","<label>Einkommen</label>"
+DocType: Maintenance Visit,Submitted,In Kraft
+DocType: Maintenance Visit,To Bill,Zu verrechnen
+DocType: Maintenance Visit,To Deliver,Auszuliefern
+DocType: Maintenance Visit,Completed,Erledigt
+DocType: Maintenance Visit,Stopped,Gestoppt
+DocType: Maintenance Visit,Cancelled,Annulliert
+DocType: Maintenance Visit,Closed,Geschlossen
+DocType: Maintenance Visit,To Deliver and Bill,Auszuliefern und zu verrechnen
+apps/erpnext/erpnext/hr/report/employee_year_report/employee_year_report.py +125,Employment Type,Arbeitsvertragstyp
+apps/erpnext/erpnext/hr/report/employee_year_report/employee_year_report.py +179,SOLL Hours,SOLL-Stunden
+apps/erpnext/erpnext/hr/report/employee_year_report/employee_year_report.py +173,IST Hours,IST-Stunden
+apps/erpnext/erpnext/hr/report/employee_year_report/employee_year_report.py +184,Over/Under,Unter-/überzeit
+apps/erpnext/erpnext/hr/report/employee_day_report/employee_day_report.py +94,Workday,Arbeitstag:
+apps/erpnext/erpnext/hr/report/employee_day_report/employee_day_report.py +104,Booked Hours,Gebuchte Stunden
+apps/erpnext/erpnext/hr/report/employee_day_report/employee_day_report.py +105,Start,Startzeit
+apps/erpnext/erpnext/hr/report/employee_day_report/employee_day_report.py +110,End,Endzeit
+apps/erpnext/erpnext/hr/doctype/process_payroll/process_payroll.py +133,Salary Slips Submitted :,Erstellte Gehaltsabrechnungen:
+apps/erpnext/erpnext/config/hr.py +28,Working Hours,Arbeitszeit
+apps/erpnext/erpnext/config/hr.py +29,Overview of working time.,Übersicht der Arbeitszeit
+apps/erpnext/erpnext/hr/doctype/process_payroll/process_payroll.py +83,No employee for the above selected criteria OR salary slip already created,Es gibt für die ausgewählte Kriterien keine Gehaltsabrechnung zu generieren oder sie wurde bereits generiert.
+apps/frappe/frappe/core/doctype/doctype/boilerplate/controller_list.html +14,Title,Titel
+apps/frappe/frappe/core/page/data_import_tool/exporter.py +53,Data Import Template,Datenimportvorlage
+apps/frappe/frappe/model/document.py +921,Incorrect value: {0} must be {1} {2},Ungültiger Wert: {0} muss {1} {2} sein
+apps/frappe/frappe/config/website.py +78,Settings for Contact Us Page.,Einstellungen für die Kontaktseite
+apps/frappe/frappe/config/website.py +73,Settings for About Us Page.,"Einstellungen für die ""Über uns""-Seite"
+apps/frappe/frappe/core/doctype/user/user.py +725,Registered but disabled.,"Registriert, aber deaktiviert."
+DocType: Company History,Company History,Unternehmensgeschichte
+DocType: Workflow,Workflow State Field,Workflow-Statusfeld
+DocType: Workflow,DocType on which this Workflow is applicable.,"Dokumententyp, auf den dieser Workflow anzuwenden ist."
+DocType: Standard Reply,Owner,Eigentümer
+apps/frappe/frappe/public/js/legacy/form.js +137,Please save before attaching.,Bitte vor dem Anhängen abspeichern
+DocType: Website Settings,&lt;head&gt; HTML,<head> HTML
+DocType: Website Settings,"Show title in browser window as ""Prefix - title""","Diesen Eintrag im Browser-Fenster als ""Titel-Präfix"" anzeigen"
+apps/frappe/frappe/core/doctype/doctype/doctype.py +148,DocType can not be merged,DocType kann nicht zusammengeführt werden
+apps/frappe/frappe/core/doctype/doctype/doctype.py +280,DocType can only be renamed by Administrator,DocType kann nur von einem Administrator umbenannt werden
+apps/frappe/frappe/public/js/frappe/views/communication.js +520,There were errors while sending email. Please try again.,Es gab Fehler beim Versenden der E-Mail. Bitte versuchen Sie es erneut.
+apps/frappe/frappe/public/js/frappe/views/communication.js +55,CC/BCC & Standard Reply,CC-/BCC-Adressen & Standard-Antworten
+apps/frappe/frappe/public/js/frappe/views/communication.js +18,Send,Senden
+apps/frappe/frappe/public/js/frappe/views/communication.js +65,Send me a copy,Mir Kopie senden
+apps/frappe/frappe/public/js/frappe/form/layout.js +125,Show more details,Mehr Details zeigen
+apps/frappe/frappe/email/smtp.py +158,Email Account not setup. Please create a new Email Account from Setup > Email > Email Account,E-Mail-Konto nicht eingerichtet. Bitte ein neues E-Mail-Konto erstellen über Einstellungen > E-Mail > E-Mail-Konto
+apps/frappe/frappe/public/js/frappe/model/model.js +24,Liked By,Zufrieden By
+DocType: System Settings,System Settings,Systemeinstellungen
+apps/frappe/frappe/email/receive.py +65,Cannot connect: {0},Es kann keine Verbindung hergestellt werden: {0}
+DocType: Communication,Open,Offen/Öffnen
+DocType: Communication,Series,Serie
+DocType: Email Account,If non standard port (e.g. 587),Wenn kein Standardanschluss (z. B. 587)
+DocType: Email Account,e.g. pop.gmail.com / imap.gmail.com,z. B. pop.gmail.com / imap.gmail.com
+apps/frappe/frappe/desk/page/activity/activity.js +233,{0} on {1},{0} an {1}
+apps/frappe/frappe/desk/page/activity/activity.js +189,May,Mai
+apps/frappe/frappe/desk/page/activity/activity.js +89,Show Likes,Anzeigen Likes
+apps/frappe/frappe/templates/includes/list/filters.html +19,clear,klar
+apps/frappe/frappe/www/login.html +72,Don't have an account? Sign up,Ein Konto haben? Anmeldung
+apps/frappe/frappe/www/login.html +22,Email address,Emailadresse
+apps/frappe/frappe/www/me.py +14,You need to be logged in to access this page.,"Sie müssen angemeldet sein, um auf diese Seite zuzugreifen."
+apps/frappe/frappe/public/js/frappe/form/linked_with.js +116,Not enough permission to see links.,Keine ausreichende Berechtigung zum Anzeigen der Verknüpfungen.
+apps/frappe/frappe/public/js/frappe/form/linked_with.js +51,Not Linked to any record.,Mit keinem Datensatz verknüpft.
+apps/frappe/frappe/desk/form/load.py +46,Did not load,Inhalt konnte nicht geladen werden.
+apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +33,Setup > User Permissions Manager,Einstellungen > Berechtigungen > Benutzerrechte-Manager
+apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +18,"When you Amend a document after Cancel and save it, it will get a new number that is a version of the old number.","Wenn ein Dokument nach dem Stornieren geändert und abgespeichert wird, bekommt es eine neue Nummer, die eine Version der alten Nummer ist."
+apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +8,Setup > User,Einstellungen > Benutzer
+DocType: Async Task,Succeeded,Gelungen
+apps/frappe/frappe/public/js/frappe/views/reports/query_report.js +379,Loading Report,Report wird geladen
+apps/frappe/frappe/public/js/frappe/ui/toolbar/navbar.html +44,Logout,Ausloggen
+apps/frappe/frappe/public/js/frappe/model/indicator.js +43,Submitted,Übertragen
+apps/frappe/frappe/public/js/frappe/form/footer/timeline_item.html +181,Liked by {0},Durch Zufrieden {0}
+apps/frappe/frappe/public/js/frappe/form/footer/timeline_item.html +68,Details,Einzelheiten
+apps/frappe/frappe/public/js/frappe/form/save.js +12,Submitting,Übertrage
+DocType: Custom DocPerm,Submit,Übertragen
+DocType: Patch Log,List of patches executed,Liste der ausgeführten Patches
+apps/frappe/frappe/core/page/permission_manager/permission_manager.js +434,Set,Einstellen
+apps/frappe/frappe/templates/includes/web_sidebar.html +33,My Account,Mein Benutzerkonto
+apps/frappe/frappe/templates/pages/me.html +4,Logout,Ausloggen
+DocType: Contact Us Settings,Settings for Contact Us Page,Einstellungen für die Kontaktseite
+DocType: Workflow State,screenshot,Bildschirmfoto
+DocType: Workflow State,Workflow state represents the current state of a document.,Workflow-Status stellt den aktuellen Status eines Dokuments dar.
+DocType: Workflow State,facetime-video,FaceTime-Video
+DocType: Event,Starts on,Startet am
+apps/frappe/frappe/model/naming.py +174,"There were some errors setting the name, please contact the administrator",Es gab beim Setzen des Namens einige Fehler. Kontaktieren Sie bitte den Administrator
+apps/frappe/frappe/model/naming.py +44,{0} is required,{0} ist erforderlich
+apps/frappe/frappe/core/doctype/communication/comment.py +85,{0} mentioned you in a comment in {1},{0} hat Sie in einem Kommentar in {1}
+DocType: Contact Us Settings,City,Stadt
+DocType: Contact Us Settings,State,Zustand Objekt
+apps/frappe/frappe/desk/doctype/event/event.py +61,Upcoming Events for Today,Heute anstehende Ereignisse
+apps/frappe/frappe/desk/doctype/event/event.py +65,Daily Event Digest is sent for Calendar Events where reminders are set.,"Hinweis: \n Ein täglicher Ereignisbericht wird für alle die Kalenderereignisse gesendet, bei denen Erinnerungen aktiviert sind."
+apps/frappe/frappe/public/js/frappe/form/quick_entry.js +199,Ctrl+enter to save,Ctrl + Enter zum Speichern
+apps/frappe/frappe/public/js/frappe/form/quick_entry.js +199,Edit in full page,In Vollbildmodus wechseln
+apps/frappe/frappe/public/js/frappe/form/quick_entry.js +86,New {0},Neuer {0}
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +10,Page {0} of {1},Seite {0} von {1}
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +23,Mr,Herr
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +24,Mrs,Frau
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +195,Dear Sir or Madam,Sehr geehrte Damen und Herren
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +188,Dear Madam,Sehr geehrte Damen
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +207,"Kind Regards,",Freundliche Grüsse
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +256,"(VAT  ","(Mehrwertsteuer  "
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +294,Total,Total
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +359,"Total (excl. VAT)","Total (exkl. MWST)"
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +388,"Total (incl. VAT)","Total (inkl. MWST)"
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +388,"Total (incl. VAT) rounded","Total (inkl. MWST) gerundet"
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +373,"VAT ( ","Mehrwertsteuer ("
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +402,Rounding Difference,Rundungsdifferenz
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +437,Account No.1,Akonto-Nr.1
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +452,Account No.2,Akonto-Nr.2
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +466,Account No.3,Akonto-Nr.3
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +481,Account No.4,Akonto-Nr.4
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +500,The Delivery Time is,Die Lieferfrist beträgt
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +500,"Weeks.","Wochen."
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +500,The Payment Deadline is,Die Zahlungsfrist beträgt
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +501,"Days.","Tage."
+apps/switsol_ag/switsol_ag/print_format/quotation_switsol_ag/quotation_switsol_ag.html +508,Details About Quotation,Details zum Angebot
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +12,Page {0} of {1},Seite {0} von {1}
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +25,Mr,Herr
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +26,Mrs,Frau
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +206,Dear Sir or Madam,Sehr geehrte Damen und Herren
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +206,Dear Madam,Sehr geehrte Damen
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +224,"Kind Regards,",Freundliche Grüsse
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +277,"(VAT  ","(Mehrwertsteuer "
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +315,Total,Total
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +380,"Total (excl. VAT)","Total (exkl. MWST)"
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +409,"Total (incl. VAT)","Total (inkl. MWST)"
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +437,"Total (incl. VAT) rounded","Total (inkl. MWST) gerundet"
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +394,"VAT (","Mehrwertsteuer ("
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +423,Rounding Difference,Rundungsdifferenz
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +458,Account No.1,Akonto-Nr.1
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +473,Account No.2,Akonto-Nr.2
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +487,Account No.3,Akonto-Nr.3
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +502,Account No.4,Akonto-Nr.4
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +521,The Delivery Time is,Die Lieferfrist beträgt
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +521,"Weeks.","Wochen."
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +522,The Payment Deadline is,Die Zahlungsfrist beträgt
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +522,"Days.","Tage."
+apps/switsol_ag/switsol_ag/print_format/sales_order_switsol_ag/sales_order_switsol_ag.html +529,Details About Quotation,Details zum Angebot
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +12,Page {0} of {1},Seite {0} von {1}
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +25,Mr,Herr
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +26,Mrs,Frau
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +225,Dear Sir or Madam,Sehr geehrte Damen und Herren
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +225,Dear Madam,Sehr geehrte Damen
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +243,"Kind Regards,",Freundliche Grüsse
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +291,"(VAT  ","(Mehrwertsteuer  "
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +357,Total,Total
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +422,"Total (excl. VAT)","Total (exkl. MWST)"
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +451,"Total (incl. VAT)","Total (inkl. MWST)"
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +479,"Total (incl. VAT) rounded","Total (inkl. MWST) gerundet"
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +436,"VAT (","Mehrwertsteuer ("
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +465,Rounding Difference,Rundungsdifferenz
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +500,Account No.1,Akonto-Nr.1
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +515,Account No.2,Akonto-Nr.2
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +529,Account No.3,Akonto-Nr.3
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +544,Account No.4,Akonto-Nr.4
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +563,The Delivery Time is,Die Lieferfrist beträgt
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +563,"Weeks.","Wochen."
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +564,The Payment Deadline is,Die Zahlungsfrist beträgt
+apps/switsol_ag/switsol_ag/print_format/sales_invoice_switsol_ag/sales_invoice_switsol_ag.html +564,"Days.","Tage."
+apps/switsol_ag/switsol_ag/print_format/delivery_note_switsol_ag/delivery_note_switsol_ag.html +59,Delivery Note Date,Erstellungsdatum
+apps/switsol_ag/config/custom_setup_assistent.py +14,General User Information,Benutzerangaben
+apps/switsol_ag/config/custom_setup_assistent.py +19,General Company Information,Generelle Informationen zur Unternehmung
+apps/switsol_ag/config/custom_setup_assistent.py +24,Payment Options,Zahlungsverbindungen
+apps/switsol_ag/config/custom_setup_assistent.py +29,Payment Terms,Zahlungskonditionen
+apps/switsol_ag/config/custom_setup_assistent.py +39,Email Server,Angaben zum Mailserver
+apps/switsol_ag/config/custom_setup_assistent.py +49,Quotation Information,Angebot Informationen
+apps/switsol_ag/config/custom_setup_assistent.py +54,Sales Order Information,Auftragsbestätigung Informationen
+apps/switsol_ag/config/custom_setup_assistent.py +64,Text modules Stock / Warehouse,Textbausteine für den Warenbestand
+apps/switsol_ag/config/custom_setup_assistent.py +59,Sales Invoice Information,Rechnung Informationen
+apps/switsol_ag/config/custom_setup_assistent.py +74,General Terms,Allgemeine Vertragsbedingungen
+apps/switsol_ag/config/custom_setup_assistent.py +44,Text modules CRM,Textbausteine für das CRM-Modul
+apps/switsol_ag/config/custom_setup_assistent.py +69,Material Request Information,Textbaustein für Produzentenbestellung
+apps/switsol_ag/custom_scripts/customer.js +81,Log,Protokoll erstellen
+DocType: General User Information,First Name,Vorname
+DocType: General User Information,Last Name,Nachname
+DocType: General User Information,Function,Funktionsbezeichnung
+DocType: General User Information,Signature,Unterschrift
+DocType: General Company Information,Company Name,Firmenname
+DocType: General Company Information,Company Slogan,Slogan
+DocType: General Company Information,Street,Strasse
+DocType: General Company Information,Bank Number,IBAN
+DocType: General Company Information,Company-ID,Unternehmens-Identifikationsnummer
+DocType: General Company Information,VAT,MwSt-Pflicht
+DocType: General Company Information,VAT Number,MwSt-Nummer
+DocType: General Company Information,VAT Accounting Type,MwSt-Abrechnungstyp
+DocType: General Company Information,Default Currency,Basis Währung
+DocType: General Company Information,Logo,Branding
+DocType: Payment Options,Description Payment Type 1,Bezeichnung Zahlungskanal 1
+DocType: Payment Options,Details Payment Type 1,Details Zahlungskanal 1
+DocType: Payment Options,Description Payment Type 2,Bezeichnung Zahlungskanal 2
+DocType: Payment Options,Details Payment Type 2,Details Zahlungskanal 2
+DocType: Payment Options,Description Payment Type 3,Bezeichnung Zahlungskanal 3
+DocType: Payment Options,Details Payment Type 3,Details Zahlungskanal 3
+DocType: Payment Options,Description Payment Type 4,Bezeichnung Zahlungskanal 4
+DocType: Payment Options,Details Payment Type 4,Details Zahlungskanal 4
+DocType: Payment Options,Description Payment Type 5,Bezeichnung Zahlungskanal 5
+DocType: Payment Options,Details Payment Type 5,Details Zahlungskanal 5
+DocType: Payment Terms,Delivery Period,Lieferfrist
+DocType: Payment Terms,Payment Period,Zahlungskondition
+DocType: Quotation Information,Intro Text,Einleitung
+DocType: Quotation Information,Print Signatures,Drucken Signaturen
+DocType: Quotation Information,Print General Terms,Drucken Allgemeine Geschäftsbedingungen
+DocType: Quotation Information,Show In Details Table,In den Angebotsdetails anzeigen
+DocType: Quotation Information,Outro Text,Bemerkungen (vor Zahlungsbedingungen)
+DocType: Quotation Information,Salutation,Grussformel
+DocType: Quotation Information,Salutation Text,Bemerkungen (nach Zahlungsbedingungen)
+DocType: Quotation Information,Offer Title,Titel Offertdetails
+DocType: Quotation Information,Offer Details Intro,Einleitungstext Offertdetails
+DocType: Quotation Information,Offer Details Outro,Bemerkungen Offertdetails
+DocType: Quotation Information,Name Discount 1,Bezeichnung Rabatt 1
+DocType: Quotation Information,Name Discount 2,Bezeichnung Rabatt 2
+DocType: Quotation Information,Name Discount 3,Bezeichnung Rabatt 3
+DocType: Quotation Information,Discount 1 Value,Wert Rabatt 1
+DocType: Quotation Information,Discount 2 Value,Wert Rabatt 2
+DocType: Quotation Information,Discount 3 Value,Wert Rabatt 3
+DocType: Quotation Information,Partial Payment 1 Name,Teilzahlung 1
+DocType: Quotation Information,Partial Payment 2 Name,Teilzahlung 2
+DocType: Quotation Information,Partial Payment 3 Name,Teilzahlung 3
+DocType: Quotation Information,Partial Payment 4 Name,Teilzahlung 4
+DocType: Quotation Information,Partial Payment 1 Value,Teilzahlung 1 in %
+DocType: Quotation Information,Partial Payment 2 Value,Teilzahlung 2 in %
+DocType: Quotation Information,Partial Payment 3 Value,Teilzahlung 3 in %
+DocType: Quotation Information,Partial Payment 4 Value,Teilzahlung 4 in %
+DocType: Material Request Information,Producer Order Subject,Produzenten Bestellung Betreff
+DocType: Material Request Information,Salutation,Anrede
+DocType: Material Request Information,Intro Text,Einleitungstext
+DocType: Material Request Information,Outro Text,Bemerkungen
+DocType: Material Request Information,Salutation Text,Bemerkungen Grussformel
+DocType: General Terms,Name AGB,Variantenbezeichnung AGB
+DocType: General Terms,General Terms,Allgemeine Geschäftsbedingungen
+erpnext/public/js/utils.js +100,Annual Billing: {0},Dieses Jahr in Rechnung gestellt: {0}
+erpnext/public/js/utils.js +102,Total Unpaid: {0},Total unbezahlt: {0}
+apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.js +57,Make,Folgeschritt
+apps/erpnext/erpnext/stock/stock_ledger.py +386,Insufficent Stock,Nicht genügend Artikel an Lage
+apps/erpnext/erpnext/stock/doctype/item/item.js +293,Stock Levels,Lagerbestand
+apps/erpnext/erpnext/stock/dashboard/item_dashboard_list.html +48,Move,Verschieben
+DocType: Timesheet Detail,Billing Hours,Verrechenbare Stunden
+DocType: Timesheet Detail,Bill,Verrechenbar
+DocType: Timesheet Detail,Hrs,Stunden
+DocType: Timesheet,Billing Details,Details zur Verrechnung
+DocType: Timesheet,Total Billable Hours,Total verrechenbare Stunden
+DocType: Timesheet,Total Billable Amount,Total verrechenbarer Betrag
+DocType: Timesheet,Total Billed Hours,Total abgerechnete Stunden
+DocType: Timesheet,Total Billed Amount,Total abgerechneter Betrag
+DocType: Timesheet,Total Costing Amount,Verrechenbarer Betrag
+DocType: Purchase Order,Title,Titel
+DocType: Purchase Order,Get last purchase rate,Letzte Zahlungskonditionen abrufen
+DocType: Purchase Order,"Enter email id separated by commas, order will be mailed automatically on particular date",E-Mail-ID durch Kommas getrennt eingeben; Bestellung wird automatisch an einem bestimmten Datum abgeschickt
+DocType: Description Text,Description Text Standard,Standard Einleitungstext
+apps/switsol_ag/switsol_ag/config/desktop.py +19,Custom Setup Assistent,Einrichtungsassistent
+apps/switsol_ag/config/custom_setup_assistent.py +44,Text modules CRM,Textbausteine für das CRM-Modul
+apps/switsol_ag/config/custom_setup_assistent.py +64,Text modules Stock / Warehouse,Textbausteine für den Warenbestand
+apps/switsol_ag/config/custom_setup_assistent.py +69,Material Request Information,Textbaustein für Produzentenbestellung
+apps/erpnext/erpnext/public/js/controllers/transaction.js +1157,Please set recurring after saving,"Bitte das Dokument zuerst speichern, bevor Sie Angaben zu wiederkehrenden Bestellungen machen."
+DocType: Letter,Add Signature,Unterschrift drucken
+DocType: Letter,Letter Text,Briefvorlagen
+apps/switsol_ag/switsol_ag/config/switsol_ag.py +24,Predefined Text Container,Vordefinierter Textcontainer
+apps/switsol_ag/switsol_ag/custom_scripts/contact.js +2,Dear Sir or Madam,Sehr geehrte Damen und Herren
+apps/switsol_ag/switsol_ag/custom_scripts/contact.js +4,Dear Sir,Sehr geehrter Herr
+apps/switsol_ag/switsol_ag/custom_scripts/contact.js +6,Dear Madam,Sehr geehrte Frau
+DocType: Upload Attendance,"Download the Template, fill appropriate data and attach the modified file. All dates and employee combination in the selected period will come in the template, with existing attendance records","Absenzen können direkt im Template eingefügt und raufgeladen werden. Allfällig bereits eingegebene Absenzen werden im Template aufgeführt."
+apps/erpnext/erpnext/projects/doctype/project/project.py +241,"You have been invited to collaborate on the project: {0}","Sie wurden eingeladen, um beim folgenden Projekt mit zu arbeiten: {0}"
+DocType: Sales Invoice Timesheet,Time Sheet,Arbeitsrapport / Zeitblatt
+apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +90,Application period cannot be outside leave allocation period,Für die ausgewählte Zeit steht kein Abwesenheitskontingent der gewählten Art zur Verfügung. Bitte wenden Sie sich an die Personalabteilung.
+apps/erpnext/erpnext/templates/includes/projects/project_tasks.html +9,modified,vor
+apps/erpnext/erpnext/templates/includes/projects/project_timesheets.html +8,from,vom
+apps/erpnext/erpnext/templates/includes/projects/project_timesheets.html +8,to,bis zum
+apps/frappe/frappe/public/js/legasy/form.js +375,See on Website,Als Webseite darstellen
+apps/erpnext/erpnext/templates/pages/projects.html +27,New task,Neue Aufgabe
+apps/erpnext/erpnext/templates/pages/projects.html +42,No tasks,Keine Aufgaben
+apps/erpnext/erpnext/templates/pages/projects.html +58,No time sheets,Keine Arbeitszeiterfassungen
+DocType: Salary Structure Employee,Base,Grundlohn
+DocType: Salary Structure Employee,Variable,Variabler Lohn
+DocType: Item,Standard Selling Rate,Standard Verkaufspreis
+DocType: Item,Re-Order Level,Meldebestand
+DocType: Item,"Selecting ""Yes"" will give a unique identity to each entity of this item which can be viewed in the Serial No master.","Wenn Sie „Ja“ auswählen, wird jeder Instanz dieses Artikels eine eindeutige Identität zugeteilt, die in den Stammdaten der Seriennummern eingesehen werden kann."
+DocType: Item,Delivered by Supplier (Drop Ship),Geliefert von Lieferant (Streckengeschäft)
+DocType: Item,website page link,Webseiten-Verknüpfung
+DocType: Item,Is Service Item,Ist Dienstleistung
+DocType: Item,Apply Warehouse-wise Reorder Level,Anwenden des lagerbezogenen Meldebestands
+DocType: Item,"Allow in Sales Order of type ""Service""","Kundenaufträge des Typs ""Dienstleistung"" zulassen"
+DocType: Item,Allow Production Order,Fertigungsauftrag zulassen
+DocType: Item,Manufacturer Part Number,Hersteller-Teilenummer
+DocType: Item,"Example: ABCD.#####\nIf series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","Wenn Sie ABCD.##### eingeben, wird es eine fortlaufende Nummerierung geben (Erste Lieferung ABCD.00001, usw.). Falls Sie das Eingabefeld leer lassen, wird für jede Lieferung eine Seriennummer verlangt."
+DocType: Item,"Example: ABCD.##### If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","Wenn Sie ABCD.##### eingeben, wird es eine fortlaufende Nummerierung geben (Erste Lieferung ABCD.00001, usw.). Falls Sie das Eingabefeld leer lassen, wird für jede Lieferung eine Seriennummer verlangt."
+DocType: Item,Automatically create Material Request if quantity falls below this level,"Automatisch Materialfrage erstellen, wenn die Menge unter diesen Wert fällt"
+DocType: Item,Automatically create Material Request if quantity falls below this level,"Automatisch Materialfrage erstellen, wenn die Menge unter diesen Wert fällt"
+DocType: Item,Item Code Supplier,Artikelnummer Lieferant
+DocType: Item,Item Name Supplier,Artikelname Lieferant
+DocType: Item,Item Description Supplier,Artikelbeschrieb Lieferant
+DocType: Item,Unit of Measure Conversion,Maßeinheit-Konvertierung
+DocType: Item,Manufacturer Part Number,Hersteller-Teilenummer
+DocType: Item Price,Supplier Part,Einkaufspreise Lieferanten
+DocType: Item Price,Purchase Price Supplier Brutto In CHF,EKP Brutto Lieferant in CHF
+DocType: Item Price,Purchase Price Supplier Brutto In EUR,EKP Brutto Lieferant in EUR
+DocType: Item Price,Purchase Price Supplier Netto In CHF,EKP Netto Lieferant in CHF
+DocType: Item Price,Purchase Price Supplier Netto In EUR,EKP Brutto Lieferant in EUR
+DocType: Item Price,Condition Supplier In CHF %,Konditionen Lieferant in %für CHF
+DocType: Item Price,Condition Supplier In EUR %,Konditionen Lieferant in %für EUR
+DocType: Item Price,Rate in EUR,Ansatz in EUR
+apps/frappe/frappe/templates/includes/login/login.js +219,Invalid Login. Try again.,Benutzername oder Passwort nicht korrekt.
+apps/switsol_ag/switsol_ag/custom_scripts/sales_invoice.js +482,Would you like to send reminder by email or post?,Möchten Sie die Zahlungserinnerung per Email oder per Briefpost versenden?

@@ -1,0 +1,23 @@
+{
+ "content": null, 
+ "creation": "2017-05-24 07:16:08.928326", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "idx": 0, 
+ "modified": "2018-05-02 19:33:43.969208", 
+ "modified_by": "Administrator", 
+ "module": "Switsol AG", 
+ "name": "reports", 
+ "owner": "Administrator", 
+ "page_name": "reports", 
+ "roles": [
+  {
+   "role": "All"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "system_page": 0, 
+ "title": "Reports"
+}

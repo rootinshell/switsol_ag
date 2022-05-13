@@ -1,0 +1,23 @@
+{
+ "add_total_row": 0, 
+ "creation": "2016-09-03 15:31:02.649569", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2018-11-14 20:37:55.502609", 
+ "modified_by": "Administrator", 
+ "module": "Switsol AG", 
+ "name": "Daily Unapproved Timesheet Summary", 
+ "owner": "Administrator", 
+ "prepared_report": 0, 
+ "ref_doctype": "Timesheet", 
+ "report_name": "Daily Unapproved Timesheet Summary", 
+ "report_type": "Script Report", 
+ "roles": [
+  {
+   "role": "All"
+  }
+ ]
+}

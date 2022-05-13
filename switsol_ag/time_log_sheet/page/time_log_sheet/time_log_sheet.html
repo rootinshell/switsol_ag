@@ -1,0 +1,153 @@
+<style>
+	.margin{
+		margin-top: 5px;
+	}
+	.hours,.minute{
+		width: 250%;
+	}
+</style>
+<div class="row" style="border:1px solid #d1d8dd; padding-left:10px; padding-top:25px;padding-bottom:25px; border-top:0px;">
+	<div class="col-md-3 col-xs-10" id="_numbers" style="padding-bottom: 20px;">
+		<div class="row">
+			<div class="col-xs-4">{%= __("Start Time") %}</div>
+			<div class="col-xs-3"><input class= "start_input_hours" placeholder="Hrs" value style="width:150%;" type="number" min="1" max="24" step="" 
+				onkeypress="return event.charCode >= 48 && event.charCode <= 57"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-3"><input class= "start_input_minute" placeholder="Mins"
+				value style="width:150%;" type="number" min="0" max="55" step="5" 
+				onkeypress="return event.charCode >= 48 && event.charCode <= 57"></div>
+			<div class="col-xs-1"></div>
+		</div>
+		<br>
+		<div class="row end-time">
+			<div class="col-xs-4">{%= __("End Time") %}</div>
+			<div class="col-xs-3"><input class= "end_input_hours" placeholder="Hrs"
+				value style="width:150%;" type="number" min="1" max="24" step="" 
+				onkeypress="return event.charCode >= 48 && event.charCode <= 57"></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-3"><input class= "end_input_minute" placeholder="Mins"
+				value style="width:150%;" type="number" min="0" max="55" step="5"
+				onkeypress="return event.charCode >= 48 && event.charCode <= 57"></div>
+			<div class="col-xs-1"></div>
+		</div>
+		<br>
+		<div class="row duration">
+			<div class="col-xs-4">{%= __("Total Duration") %}</div>
+			<div class="col-xs-3"><input class= "input_hours" type="text" placeholder="Hrs"
+				value style="width:150%;" disabled></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-3"><input class= "input_minute" type="text" placeholder="Mins" value style="width:150%;" disabled></div>
+			<div class="col-xs-1"></div>
+		</div>
+	</div>
+	<div class="col-md-1 col-xs-2"></div>
+	<div class="col-md-3 col-xs-10 _buttons" style="padding-bottom: 20px;">
+		<span>{%= __("Pick Up Hours") %}</span>
+		{% for(var i=1, le=25; i < le; i = i + 6) { %}
+			<div class="row">
+				{% if (i == 1 || i == 7) { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ 0 }}{{ i }}></div>
+				{% } else { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ i }}></div>
+				{% } %}
+
+				{% if ((i + 1 == 2) || (i + 1 == 8)) { %}
+				<div class="col-xs-2"><input class="hours" type="button" value={{ 0 }}{{ i+1 }}></div>
+				{% } else { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ i+1 }}></div>
+				{% } %}
+
+				{% if (i + 2 == 3 || i + 2 == 9) { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ 0 }}{{ i+2 }}></div>
+				{% } else { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ i+2 }}></div>
+				{% } %}
+
+				{% if (i + 3 == 4) { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ 0 }}{{ i+3 }}></div>
+				{% } else { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ i+3 }}></div>
+				{% } %}
+
+				{% if (i + 4 == 5) { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ 0 }}{{ i+4 }}></div>
+				{% } else { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ i+4 }}></div>
+				{% } %}
+
+				{% if (i + 5 == 6) { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ 0 }}{{ i+5 }}></div>
+				{% } else { %}
+				<div class="col-xs-2"><input class= "hours" type="button" value={{ i+5 }}></div>
+				{% } %}
+			</div>
+		{% } %}
+	</div>
+	<div class="col-md-1 col-xs-2"></div>
+	<div class="col-md-3 col-xs-10 _buttons">
+		<span>{%= __("Pick Up Minutes") %}</span>
+		{% for(var i=0, le=60; i < le; i = i + 20) { %}
+			<div class="row">
+				{% if (i + 0 == 0) { %}
+				<div class="col-xs-2"><input class= "minute" type="button" value={{ 0 }}{{ i }}></div>
+				{% } else { %}
+				<div class="col-xs-2"><input class= "minute" type="button" value={{ i }}></div>
+				{% } %}
+				{% if (i + 5 == 5) { %}
+				<div class="col-xs-2"><input class= "minute" type="button" value={{ 0 }}{{ i+5 }}></div>
+				{% } else { %}
+				<div class="col-xs-2"><input class= "minute" type="button" value={{ i+5 }}></div>
+				{% } %}
+				<div class="col-xs-2"><input class= "minute" type="button" value={{ i+10 }}></div>
+				<div class="col-xs-2"><input class= "minute" type="button" value={{ i+15 }}></div>
+				<div class="col-xs-4"></div>
+			</div>
+		{% } %}
+	</div>
+	<div class="col-md-2 col-xs-2"></div>
+	<!-- <div class="col-xs-6"></div> -->
+	<br><br><br>
+	<!-- <div class="col-md-12 col-xs-12" style="padding-top:20px; margin-left:20px;"> -->
+	<div class="col-md-12 col-xs-12" style="padding-top:20px;">
+		<input class= "submit hover" type="button" value={%= __("Submit") %}>
+	</div>
+</div>
+
+<div class="row" style="border:1px solid #d1d8dd;padding-left:10px; border-top:0px;">
+	<div class="col-md-12 dtls" style="padding-left:10px;padding-top:15px;padding-bottom:10px; font-size:130%;">
+		<font color="#0101DF">{%= __("Logged Timesheets Details") %}</font>
+	</div>
+	<div class="col-md-12 logged-sheets" id="loggedsheet" style="padding-left:10px;"></div>
+	<!-- <div class="col-md-12 logged-sheets" id="loggedsheet" style="padding-left:10px;  height: 200px; overflow-y: auto;"></div> -->
+</div>
+
+<div class="row" style="border:1px solid #d1d8dd;padding-left:10px; padding-top:25px;padding-bottom:25px; border-top:0px;">
+	<div class="col-md-6 col-xs-12">  
+		<div class="row">
+			<div class="col-xs-12" style="font-size:160%;">
+				<font color="#0101DF">{%= __("Dashboard Snapshot -") %}</font>
+			</div>
+			<div class="col-xs-12" style="padding-top:25px;">
+				<div class="col-xs-7" id="weekly" style="padding-left:0px;"><b><font color="#36414c">{%= __("Total Hours Logged Last Week ") %}:</font></b></div>
+				<div class="col-xs-5" style="padding-left:0px;"><input class= "weekly_hrs" type="text" value style="width:70%;  border-radius: 5px; padding-left:3px;" disabled></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12" style="padding-top:15px;">
+				<div class="col-xs-7" id="monthly" style="padding-left:0px;"><b><font color="#36414c">{%= __("Total Hours Logged This Month ") %}:</font></b></div>
+				<div class="col-xs-5" style="padding-left:0px;"><input class= "monthly_hrs" type="text" value style="width:70%;  border-radius: 5px; padding-left:3px;" disabled></div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 col-xs-12">
+		<div class="row">
+			<div class="col-xs-12" style=" font-size:110%; padding-top:55px;"><b><font color="#36414c">{%= __("Other Reports") %} - </font></b></div>
+			<div class="col-xs-12" style=" font-size:100%; padding-top:15px;">
+				<li><a href="#query-report/Daily Timesheet Summary">{%= __("Total Hours Worked Against Activity") %}</a></li>
+			</div>
+			<div class="col-xs-12" style=" font-size:100%; padding-top:10px;">
+				<li><a href="#query-report/Daily Unapproved Timesheet Summary">{%= __("Un-approved Timesheets") %}</a></li>
+			</div>
+		</div>
+	</div>
+</div>

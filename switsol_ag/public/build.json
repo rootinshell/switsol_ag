@@ -1,0 +1,15 @@
+{
+	"css/switsol_ag.min.css": [
+        "public/css/switsol_ag.css"
+    ],
+	"js/switsol_ag.js": [
+		"public/js/desk.js",
+		"public/js/conf.js",
+		"public/js/print_layout.html",
+		"public/js/upload.html",
+		"public/js/list_item_main.html",
+		"public/js/communication.js",
+		"public/js/make_new_call_logs_from_contact.js",
+		"public/js/contact_list.html"
+	]
+}

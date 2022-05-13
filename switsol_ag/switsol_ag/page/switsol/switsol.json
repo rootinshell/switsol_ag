@@ -1,0 +1,23 @@
+{
+ "content": null, 
+ "creation": "2016-08-29 17:43:43.723402", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "idx": 0, 
+ "modified": "2018-11-14 20:35:30.777038", 
+ "modified_by": "Administrator", 
+ "module": "Switsol AG", 
+ "name": "switsol", 
+ "owner": "Administrator", 
+ "page_name": "Switsol", 
+ "roles": [
+  {
+   "role": "All"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "system_page": 0, 
+ "title": "Switsol Time Log Sheet"
+}
