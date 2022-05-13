@@ -186,8 +186,8 @@ def payment_reminder(customer_name, args, flag, reminder_count, si_name):
             add_email_communication(data.get("predefined_text"), data.get("email_id"), customer_doc, si_doc)
             reminder_logs(si_name, reminder_count)
             return True
-        except Exception, e:
-            print frappe.get_traceback()
+        except Exception as e:
+            print (frappe.get_traceback())
             frappe.throw(_("Mail has not been Sent. Kindly Contact to Administrator"))
     else:
         letter_name = make_new_letter(si_name, reminder_count, data, data.get("greeting"))
